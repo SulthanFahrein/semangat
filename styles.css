@@ -1,0 +1,161 @@
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background: linear-gradient(to bottom, #87CEEB, #B0E0E6); /* Langit biru */
+}
+
+header {
+    background: rgba(135, 206, 235, 0.8); /* Warna biru langit */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #87CEEB; /* Garis bawah langit biru */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+    font-family: 'Pacifico', cursive; /* Font ceria */
+}
+
+header p {
+    margin: 10px 0;
+    font-size: 1.5em;
+}
+
+main {
+    padding: 20px;
+    position: relative;
+}
+
+/* Hero Section */
+.hero {
+    background: url('https://source.unsplash.com/1600x900/?sky,clouds') no-repeat center center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-content {
+    background: rgba(0, 0, 0, 0.5); /* Efek transparan */
+    display: inline-block;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.hero h2 {
+    margin-top: 20px;
+    font-size: 2.5em;
+    animation: fadeIn 2s ease-in-out;
+}
+
+/* Animasi */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Button */
+button {
+    background: #FFD700; /* Warna emas cerah */
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s, transform 0.3s;
+    margin-top: 20px;
+}
+
+button:hover {
+    background: #FF6347; /* Warna merah cerah */
+    transform: scale(1.05);
+}
+
+/* Navigation */
+.nav {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.nav a {
+    display: inline-block;
+    background: #87CEEB; /* Warna biru langit */
+    color: white;
+    padding: 15px 25px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+.nav a:hover {
+    background: #4682B4; /* Warna biru gelap */
+}
+
+/* Quote Section */
+.quote-section {
+    background: rgba(255, 255, 255, 0.8); /* Latar belakang putih transparan */
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.quote-section h2 {
+    font-size: 2em;
+    margin: 20px 0;
+}
+
+/* Poetry Section */
+.poetry-section {
+    background: rgba(255, 255, 255, 0.8); /* Latar belakang putih transparan */
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.poetry-section h2 {
+    font-size: 1.8em;
+}
+
+/* Gallery */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    margin: 10px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+}
+
+/* Music Player */
+.music-player {
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer {
+    background: rgba(135, 206, 235, 0.8); /* Warna biru langit */
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-top: 2px solid #87CEEB; /* Garis atas langit biru */
+}
